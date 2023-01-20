@@ -1,0 +1,37 @@
+/************** CLASS ELEMENTS **************/
+
+.bottom-element{
+    background-color: red;
+    border: solid 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+}
+
+.middle-element{
+    background-color: blue;
+    border: solid 20px;
+    height: 200px;
+    margin-left: 260px;
+    width: 200px;
+}
+
+.top-element{
+    background-color: rgb(255, 255, 0);
+    border: solid 10px;
+    border-color: black;
+    height: 200px;
+    /*margin: 15px 10px 5px 10px;     */
+    padding: 20px;
+    width: 200px;
+}
+/************** TAGS ELEMENTS **************/
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+div{
+    background-color: #1B4571;   
+}
