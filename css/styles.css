@@ -1,16 +1,15 @@
+/**********************Tags Selectors******************/
 body{
-        background-color:  #ae83c2;
+    background-color:  #ae83c2;
 }
 hr{
     background-color: #ae83c2;
-    width: 5%;
-    border-style: none;
     border-color: #975dd6;
-    border-width: 5px;
+    border-style: none;
     border-top-style: dotted;
-
+    border-width: 5px;
+    width: 5%;
 }
-
 h1{
     color: #522de4;
 }
@@ -20,6 +19,24 @@ h2{
 h3{
     color: #0e418e;
 }
-img{
-    height: 150px;
+img:hover{
+    background-color: yellow;
+}
+/**********************Class Selectors******************/
+.bacon{
+    background-color: green;
+}
+.broccoli{
+    background-color: red;
+}
+
+.circular{
+    border-radius: 10% 30% 50% 70%;
+}
+/**********************ID Selectors******************/
+#big{
+    font-size: 90px;
+}
+#headding{
+    color: yellow;
 }
