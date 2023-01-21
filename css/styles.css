@@ -5,14 +5,34 @@
     left: 12.5rem;
     top:200px;
 }
+.footer-link{
+    font-size: 1.2rem;
+}
 .contact-me{
-    background-color: #8EC3B0;
+    background-color: #DEF5E5;
 }
 .skills{
-    background-color: #BCEAD5;
+    background-color: #DEF5E5;
+    width: 50%;
+    margin: 6.25rem auto;
 }
+.skill-images{
+    
+    width: 25%;
+    border-radius: 50%;
+    /*float: left;*/
+    /*padding: 25px;    */
+    margin-right: 1.875rem;
+    clear: left;
+
+}
+
+
+
 .skill-row{
-    background-color: #9ED5C5;
+    background-color: #DEF5E5;
+    text-align: left;
+    line-height: 2;
 }
 .top-cloud{
     position: relative;
@@ -24,6 +44,8 @@
 .top-container{
     background-color:#DEF5E5;
 }
+
+
 
 /************** TAGS ELEMENTS **************/
 body{
@@ -38,6 +60,8 @@ h1{
     font-size: 5.625rem;
     margin: 0 auto;
     margin: 2%;
+    color: #66BFBF;
+    line-height: 2;
     /*
     By default 100% = 16px
     if we want to use for 90px
@@ -48,11 +72,30 @@ h1{
 h2{
     font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }
+
+h3{
+    font-size: 1.625rem;
+    font-family: 'Poppins', sans-serif;
+    color: #40877e;
+    font-weight: normal;
+    
+}
+
 
 p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5625rem;
+    
+}
+
+/************** IDs ELEMENTS **************/
+#fatima{
+    height: 12.5rem;
+    width: 12.5rem;
+    
 }
 
 
