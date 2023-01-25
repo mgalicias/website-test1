@@ -1,65 +1,96 @@
 /************** CLASS ELEMENTS **************/
 .bottom-cloud{
     bottom: 300px;
-    position: absolute;
     left: 12.5rem;
+    position: absolute;
     top:200px;
 }
-/*.footer-link{
-    font-size: 1.2rem;
+.contact-button{
+    background-color: #75bae2;
+    border-radius: 10% 30%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+
 }
-.contact-me{
-    background-color: #DEF5E5;
+.getin-touch{
+    background-color: #d8f3e8;
+    border-radius: 10% 30%;
+    font-weight: bold;
+    margin: 3rem;
+    padding: 3.125rem;
+}
+.middle-container{
+    background-color: #f3fffa;
+    margin: 0 12.5rem;
+}
+.mountain{
+    margin: 41px auto 0;
+}
+.my-profile{
+    background-color: #f3fffa;
+    padding: 3.125rem;
+}
+.row-profile{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.row-skills{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.social-network{
+    background-color: #66BFBF;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto 0;
+    padding: 15px;
+}
+.social-items{
+    color: #11999E;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    margin: 10px 20px;    
 }
 .skills{
-    background-color: #DEF5E5;
-    width: 50%;
-    margin: 6.25rem auto;
-}
-.skill-images{
+    background-color: #d8f3e8;
+    font-weight: bold;
+    margin: 3rem;
+    padding: 3.125rem;
+    border-radius: 10% 30%;
     
-    width: 25%;
-    border-radius: 50%;
-    /*float: left;*/
-    /*padding: 25px;    */
- /*   margin-right: 1.875rem;
-    clear: left;
-
 }
-
-.skill-row{
-    background-color: #DEF5E5;
-    text-align: left;
-    line-height: 2;
-}*/
 .top-cloud{
+    left: 21.85rem;
     position: relative;
     padding-top: 10px;
     top: 20px;
-    left: 21.85rem;
+    
 }
-
 .top-container{
     background-color:#DEF5E5;
 }
 
 
-
 /************** TAGS ELEMENTS **************/
 body{
     font-size: 200%;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 h1{
-    
+    color: #66BFBF;
     font-family: 'Sacramento', cursive;
     /*font-size: 312.5%;*/
     font-size: 5.625rem;
-    margin: 0 auto;
-    /*margin: 2%;*/
-    color: #66BFBF;
     line-height: 2;
+    margin: 0 auto;
+    
     /*
     By default 100% = 16px
     if we want to use for 90px
@@ -68,35 +99,57 @@ h1{
 }
 
 h2{
-    font-size: 2.5rem;
-    /*font-family: 'Poppins', sans-serif;*/
     color: #66BFBF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
     font-weight: normal;
 }
 
 h3{
-    font-size: 1.625rem;
-    /*font-family: 'Poppins', sans-serif;*/
     color: #40877e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     font-weight: normal;
-    
+    margin: 1rem auto;    
 }
 
+hr{
+    border:dotted  #6c8888 6px;
+    border-bottom: none;
+    
+    margin: 2rem auto ;
+    width: 4%;
+}
 
 p{
-    /*font-family: 'Poppins', sans-serif;*/
-    font-size: 1.5625rem;
-    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin: 1.3rem auto;
 }
 
-/************** IDs ELEMENTS **************
+/************** IDs ELEMENTS **************/
 #fatima{
     height: 12.5rem;
     width: 12.5rem;
-    
-}*/
+    background-color: #dcebeb6e;
+    border-radius: 50%;
+}
+#computer{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 50%;
+}
+#chillies{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 50%;
+}
+#last-item{
+    font-size: smaller;
+    color: white;
+    margin-bottom: 0;
 
-
+}
 /*font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sacramento', cursive;*/
