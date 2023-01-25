@@ -14,8 +14,17 @@
     font-style: normal;
     margin: 1rem auto;
     padding: 1rem;
-    
+    text-decoration: none;
+    transition-duration: 2s, 3s;
 
+}
+.contact-button:hover{
+    background-color: #9fdaff;
+    border-radius: 30% 10%;
+    color: rgb(97, 205, 247);
+    
+    
+    
 }
 .getin-touch{
     background-color: #d8f3e8;
@@ -56,6 +65,15 @@
     font-family: 'Poppins', sans-serif;
     line-height: 1;
     margin: 10px 20px;    
+    transition-duration: 2s,3s;
+}
+.social-items:hover{
+    
+    border-radius: 30% 10%;
+    color: rgb(255, 255, 255);
+    
+    
+    
 }
 .skills{
     background-color: #d8f3e8;
